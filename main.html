@@ -1,0 +1,85 @@
+<style>
+    .angry-grid {
+        display: grid;
+
+        grid-template-rows: auto 45px 1fr 1fr;
+        grid-template-columns: 16rem auto;
+
+        gap: 3px;
+        height: 100%;
+
+    }
+
+    #item-0 {
+
+        background-color: #a3a3a3;
+        grid-row-start: 1;
+        grid-column-start: 2;
+
+        grid-row-end: 2;
+        grid-column-end: 3;
+
+    }
+
+    #item-1 {
+
+        background-color: #385b94;
+        grid-row-start: 2;
+        grid-column-start: 1;
+
+        grid-row-end: 4;
+        grid-column-end: 2;
+
+    }
+
+    #item-2 {
+
+        background-color: #d0d9e6;
+        grid-row-start: 2;
+        grid-column-start: 2;
+
+        grid-row-end: 4;
+        grid-column-end: 3;
+
+    }
+
+    #item-3 {
+
+        background-color: #2b4c81;
+        grid-row-start: 1;
+        grid-column-start: 1;
+
+        grid-row-end: 2;
+        grid-column-end: 2;
+
+    }
+
+    #item-4 {
+
+        background-color: #00004d;
+        grid-row-start: 4;
+        grid-column-start: 1;
+
+        grid-row-end: 5;
+        grid-column-end: 3;
+
+    }
+</style>
+
+<div class="angry-grid">
+    <div id="item-0">
+        <p>header</p>
+    </div>
+    <div id="item-1">
+        <h1>mais texto</h1>
+    </div>
+    <div id="item-2">
+        <p>textão</p>
+    </div>
+    <div id="item-3">
+        <p>logo</p>
+    </div>
+    <div id="item-4">
+        <p>rodapé</p>
+    </div>
+</div>
